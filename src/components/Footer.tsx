@@ -1,15 +1,15 @@
 import React from "react";
 import { Facebook, Instagram, MessageCircle } from "lucide-react";
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
-<footer id="contact" className="bg-[#111827] text-white">
+    <footer id="contact" className="bg-[#111827] text-white">
       <div className="container mx-auto px-6 py-12 lg:px-20 lg:py-16">
         {/* Footer Sections */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-center lg:text-left">
           {/* Logo and Description */}
           <div className="flex flex-col items-center lg:items-start">
-<div className="text-2xl font-bold text-pink-500 mb-4 w-32 mx-auto lg:mx-0">McHans Cosmetics</div>
+            <div className="text-2xl font-bold text-pink-500 mb-4 w-32 mx-auto lg:mx-0">McHans Cosmetics</div>
             <p className="text-[#959CA8] text-base leading-relaxed max-w-xs">
               Transforming beauty routines with natural, effective skincare
               solutions.

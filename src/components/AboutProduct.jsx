@@ -21,7 +21,7 @@ const AboutProductData = [
 
 const AboutProduct = () => {
   return (
-    <div className="px-7 py-16 lg:px-20 bg-white">
+    <div id="about-product" className="px-7 py-16 lg:px-20 bg-white">
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
         {AboutProductData.map((data) => (

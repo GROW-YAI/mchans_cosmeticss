@@ -10,13 +10,16 @@ import Footer from './components/Footer';
 function App() {
   
   return (
-    <div className=''>
-    <NavBar/>
-    <HeroSection />
-    <AboutProduct/>
-    <Products/>
-    <AboutInnovator/>
-    <Footer />
+    <div className='min-h-screen bg-white'>
+      <a href="#main-content" className="skip-link">Skip to main content</a>
+      <NavBar/>
+      <main id="main-content">
+        <HeroSection />
+        <AboutProduct/>
+        <Products/>
+        <AboutInnovator/>
+      </main>
+      <Footer />
     </div>
   )
 }

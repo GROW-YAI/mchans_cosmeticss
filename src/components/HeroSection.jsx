@@ -1,5 +1,4 @@
 import React from "react";
-import HeroImage from "../assets/hero.avif";
 
 const HeroSection = () => {
   return (
@@ -23,8 +22,10 @@ const HeroSection = () => {
       {/* Image Section */}
       <div className="w-full md:w-1/2 flex justify-center">
         <img
-          src={HeroImage}
-          alt="Hero Image"
+          src="https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/67e0942b-9bdb-4d6d-b36a-60c2cdf460bb.avif"
+          alt="Natural beauty products hero image"
+          loading="lazy"
+          style={{ aspectRatio: '16/9' }}
           className="rounded-lg shadow-2xl w-full h-auto max-w-md md:max-w-lg lg:max-w-full object-cover"
         />
       </div>
