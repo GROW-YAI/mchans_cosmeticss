@@ -22,3 +22,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment files
+.env
+.env.local
+.env.production
+.env*.local
+
+# Next.js
+.next/
+
+# Local README (contains API keys)
+README.md

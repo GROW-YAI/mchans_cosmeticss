@@ -7,7 +7,7 @@ export default function BoafoWidgetInitializer() {
   useEffect(() => {
     try {
       // Only initialize if we have a valid API key
-      const BOAFO_API_KEY = "boafo_5678"; // Using the API key from index.html
+      const BOAFO_API_KEY = import.meta.env.VITE_BOAFO_API_KEY;
       if (BOAFO_API_KEY) {
         initializeBoafoWidget(BOAFO_API_KEY);
       }
