@@ -1,4 +1,4 @@
-# McHans Cosmetics - Accessibility-Powered Website
+# McHans Cosmetics 
 
 ## Project Overview
 
