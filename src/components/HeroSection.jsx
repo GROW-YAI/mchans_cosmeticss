@@ -5,11 +5,11 @@ const HeroSection = () => {
     <div className="bg-pink-50 w-full px-6 lg:px-20 py-12 pt-24 flex flex-col md:flex-row items-center gap-10">
       {/* Text Section */}
       <div className="flex flex-col w-full md:w-1/2 items-start">
-        <h1 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 leading-snug md:leading-tight">
+        <h1 className="text-left text-3xl md:text-4xl font-serif font-bold text-gray-900 leading-snug md:leading-tight">
           <span className="inline lg:block">Discover Your Natural</span>
-          <span className="text-pink-500 inline lg:block ml-2 md:ml-0">Beauty</span>
+          <span className="text-pink-500 inline lg:block ml-2 md:ml-0 text-left">Beauty</span>
         </h1>
-        <p className="mt-4 md:mt-5 text-sm md:text-base lg:text-lg text-gray-600">
+        <p className="mt-4 md:mt-5 text-sm md:text-base lg:text-lg text-gray-600 text-left">
           Experience luxury skincare that transforms your beauty routine into a self-care ritual. Our products are crafted with natural ingredients to enhance your natural radiance.
         </p>
         <div className="mt-6 md:mt-8">
